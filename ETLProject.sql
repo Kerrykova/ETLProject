@@ -4,11 +4,11 @@ USE etlproject_db;
 
 -- Create tables for raw data to be loaded into
 CREATE TABLE aac_outcomes (
-  id INT PRIMARY KEY AUTO INCREMENT,
+  id INT PRIMARY KEY AUTO_INCREMENT,
   year INT,
   animal_type VARCHAR(30),
   outcome_type VARCHAR(30),
-  age_upon_outcome INT,
+  age_upon_outcome TEXT,
   breed TEXT
 );
 
